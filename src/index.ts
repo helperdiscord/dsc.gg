@@ -1,1 +1,1 @@
-export { Client } from './structs/Client'
+export {Client} from './structs/Client';
