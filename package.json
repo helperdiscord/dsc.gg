@@ -1,6 +1,6 @@
 {
   "name": "@helperdiscord/dsc.gg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/helperdiscord/vote-client.git"
+    "url": "git+https://github.com/helperdiscord/dsc.gg.git"
   },
   "author": "doge (doge@helper.wtf)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/helperdiscord/vote-client/issues"
+    "url": "https://github.com/helperdiscord/dsc.gg/issues"
   },
-  "homepage": "https://github.com/helperdiscord/vote-client#readme",
+  "homepage": "https://github.com/helperdiscord/dsc.gg#readme",
   "dependencies": {
     "@helperdiscord/centra": "^1.0.7"
   },
