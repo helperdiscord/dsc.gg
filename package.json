@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p .",
-    "prepack": "npm build"
+    "prepack": "npm build",
+    "docs": "typedoc src/index.ts --theme node_modules/typedoc-twilio-theme/bin"
   },
   "repository": {
     "type": "git",
