@@ -9,6 +9,7 @@ A node js wrapper for dsc.gg
 
 To use this package, you need to create a developer app <a href="https://dsc.gg/developers/dashboard">here</a> and grab the API token. This token is required for all API requests.
 
+<b><a href="https://helperdiscord.github.io/dsc.gg/">Docs Site</a></b>
 
 ## Install instructions
 
