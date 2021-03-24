@@ -1,7 +1,5 @@
 import req from 'petitio';
-import {Client as UClient} from 'undici';
 import {Link, getLink, createLink, updateLink, User, getUser, getUserLinks, searchLinks, searchLinksResult, topLinkResult, LinkType, HTTPMethod, APIMessage} from './types';
-const client = new UClient('https://api.dsc.gg', {pipelining: 10});
 export class Client {
   /**
      * Creates an instance of Client.
@@ -154,7 +152,7 @@ export class Client {
      * @memberof Client
      */
   private async request(method: HTTPMethod, path: string, params: any = {}, query: any = {}): Promise<any> {
-    const init = req(`https://api.dsc.gg/v2`, method).client(client, true).path(path).header('Authorization', this.token).body(params);
+    const init = req(`https://api.dsc.gg/v2`, method).path(path).header('Authorization', this.token).body(params);
     for (const [k, v] of Object.entries(query)) {
       init.query(k, v);
     }
